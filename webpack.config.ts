@@ -2,10 +2,6 @@ import path from 'path';
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-// const path = require('path');
-// const webpack = require('webpack');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 const config: webpack.Configuration = {
   mode: 'development',
   entry: path.resolve(__dirname, 'src', 'index.ts'),
